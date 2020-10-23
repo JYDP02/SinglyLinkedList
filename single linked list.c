@@ -54,7 +54,7 @@ void search()
         printf("\n%d is not found",a);
 
 }
-struct node*create(int x)
+struct node *create(int x)
 {
     new_node=(struct node*)malloc(sizeof(struct node));
     new_node->ele=x;
